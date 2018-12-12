@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Travel</title>
+    <!-- Required meta tags -->
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="../nidza/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!--Header-->
+    <div class="container bg-light" id="containerr">
+      
+            <div class="jumbotron text-center" style="margin-bottom:0px;" id="header">
+                   <h1 class="naslov-1">Travel agency</h1>
+            </div>
+            
+             <!--NavBar-->
+    
+    
+    
+    <div class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="box-shadow: 0px 5px 3px 0px black;">
+    
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         <a href="../nidza/index.html"> <img class="img-fluid broj" src="../nidza/img/kompas.png" alt="kompas" width="50px" height="50px" > </a>
+
+        <div class="collapse navbar-collapse" id="collapse_target">
+          
+          <ul class=" navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="../nidza/index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">Options
+              <span class="carret"></span>
+            </a>
+            <div class="dropdown-menu " style="box-shadow: 0px 4px 3px 0px black;" aria-labelledby="dropdown_target">
+              <a href="../nidza/register.html" class="dropdown-item ">Register</a>
+              <div class="dropdown-divider"></div>
+              <a href="../nidza/galerija.html" class="dropdown-item">Gallery</a>
+              <div class="dropdown-divider"></div>
+              <a href="../nidza/kontakt.html" class="dropdown-item">Contact</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../nidza/index2.html">Travel</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#druga_polovina">Price</a>
+              </li>
+          </li>
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="../nidza/onama.html">About us</a>
+          </li>
+        
+        </ul>
+        
+      </div>
+
+
+
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#colapse_target_1">
+                       <span><i class="fas fa-search"></i></span>
+                     </button>
+
+
+
+
+              <div class="collapse navbar-collapse" id="colapse_target_1" style="justify-content: flex-end;">
+              <form class="form-inline my-2 my-lg-0" id="search">
+                <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-danger" type="submit">Search</button>
+               <a href="../nidza/logIN.html"><button  class="btn btn-outline-primary ml-1" type="button" id="dugme_1" >Log In</button></a>
+              </form>
+              </div>
+           </div> 
+
+           <!--Main-->
+
+           <div class="row">
+             <div class="col-md-4 col-sm-12" id="inputi-2">
+               
+               
+               <div class="form-group">
+                 
+                 
+                 <label for="drzava">Country</label>
+                 <select name="" class="form-control" id="drzava">
+                     <option value="AF">Afghanistan</option>
+                     <option value="AX">Åland Islands</option>
+                     <option value="AL">Albania</option>
+                     <option value="DZ">Algeria</option>
+                     <option value="AS">American Samoa</option>
+                     <option value="AD">Andorra</option>
+                     <option value="AO">Angola</option>
+                     <option value="AI">Anguilla</option>
+                     <option value="AQ">Antarctica</option>
+                     <option value="AG">Antigua and Barbuda</option>
+                     <option value="AR">Argentina</option>
+                     <option value="AM">Armenia</option>
+                     <option value="AW">Aruba</option>
+                     <option value="AU">Australia</option>
+                     <option value="AT">Austria</option>
+                     <option value="AZ">Azerbaijan</option>
+                     <option value="BS">Bahamas</option>
+                     <option value="BH">Bahrain</option>
+                     <option value="BD">Bangladesh</option>
+                     <option value="BB">Barbados</option>
+                     <option value="BY">Belarus</option>
+                     <option value="BE">Belgium</option>
+                     <option value="BZ">Belize</option>
+                     <option value="BJ">Benin</option>
+                     <option value="BM">Bermuda</option>
+                     <option value="BT">Bhutan</option>
+                     <option value="BO">Bolivia, Plurinational State of</option>
+                     <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                     <option value="BA">Bosnia and Herzegovina</option>
+                     <option value="BW">Botswana</option>
+                     <option value="BV">Bouvet Island</option>
+                     <option value="BR">Brazil</option>
+                     <option value="IO">British Indian Ocean Territory</option>
+                     <option value="BN">Brunei Darussalam</option>
+                     <option value="BG">Bulgaria</option>
+                     <option value="BF">Burkina Faso</option>
+                     <option value="BI">Burundi</option>
+                     <option value="KH">Cambodia</option>
+                     <option value="CM">Cameroon</option>
+                     <option value="CA">Canada</option>
+                     <option value="CV">Cape Verde</option>
+                     <option value="KY">Cayman Islands</option>
+                     <option value="CF">Central African Republic</option>
+                     <option value="TD">Chad</option>
+                     <option value="CL">Chile</option>
+                     <option value="CN">China</option>
+                     <option value="CX">Christmas Island</option>
+                     <option value="CC">Cocos (Keeling) Islands</option>
+                     <option value="CO">Colombia</option>
+                     <option value="KM">Comoros</option>
+                     <option value="CG">Congo</option>
+                     <option value="CD">Congo, the Democratic Republic of the</option>
+                     <option value="CK">Cook Islands</option>
+                     <option value="CR">Costa Rica</option>
+                     <option value="CI">Côte d'Ivoire</option>
+                     <option value="HR">Croatia</option>
+                     <option value="CU">Cuba</option>
+                     <option value="CW">Curaçao</option>
+                     <option value="CY">Cyprus</option>
+                     <option value="CZ">Czech Republic</option>
+                     <option value="DK">Denmark</option>
+                     <option value="DJ">Djibouti</option>
+                     <option value="DM">Dominica</option>
+                     <option value="DO">Dominican Republic</option>
+                     <option value="EC">Ecuador</option>
+                     <option value="EG">Egypt</option>
+                     <option value="SV">El Salvador</option>
+                     <option value="GQ">Equatorial Guinea</option>
+                     <option value="ER">Eritrea</option>
+                     <option value="EE">Estonia</option>
+                     <option value="ET">Ethiopia</option>
+                     <option value="FK">Falkland Islands (Malvinas)</option>
+                     <option value="FO">Faroe Islands</option>
+                     <option value="FJ">Fiji</option>
+                     <option value="FI">Finland</option>
+                     <option value="FR">France</option>
+                     <option value="GF">French Guiana</option>
+                     <option value="PF">French Polynesia</option>
+                     <option value="TF">French Southern Territories</option>
+                     <option value="GA">Gabon</option>
+                     <option value="GM">Gambia</option>
+                     <option value="GE">Georgia</option>
+                     <option value="DE">Germany</option>
+                     <option value="GH">Ghana</option>
+                     <option value="GI">Gibraltar</option>
+                     <option value="GR">Greece</option>
+                     <option value="GL">Greenland</option>
+                     <option value="GD">Grenada</option>
+                     <option value="GP">Guadeloupe</option>
+                     <option value="GU">Guam</option>
+                     <option value="GT">Guatemala</option>
+                     <option value="GG">Guernsey</option>
+                     <option value="GN">Guinea</option>
+                     <option value="GW">Guinea-Bissau</option>
+                     <option value="GY">Guyana</option>
+                     <option value="HT">Haiti</option>
+                     <option value="HM">Heard Island and McDonald Islands</option>
+                     <option value="VA">Holy See (Vatican City State)</option>
+                     <option value="HN">Honduras</option>
+                     <option value="HK">Hong Kong</option>
+                     <option value="HU">Hungary</option>
+                     <option value="IS">Iceland</option>
+                     <option value="IN">India</option>
+                     <option value="ID">Indonesia</option>
+                     <option value="IR">Iran, Islamic Republic of</option>
+                     <option value="IQ">Iraq</option>
+                     <option value="IE">Ireland</option>
+                     <option value="IM">Isle of Man</option>
+                     <option value="IL">Israel</option>
+                     <option value="IT">Italy</option>
+                     <option value="JM">Jamaica</option>
+                     <option value="JP">Japan</option>
+                     <option value="JE">Jersey</option>
+                     <option value="JO">Jordan</option>
+                     <option value="KZ">Kazakhstan</option>
+                     <option value="KE">Kenya</option>
+                     <option value="KI">Kiribati</option>
+                     <option value="KP">Korea, Democratic People's Republic of</option>
+                     <option value="KR">Korea, Republic of</option>
+                     <option value="KW">Kuwait</option>
+                     <option value="KG">Kyrgyzstan</option>
+                     <option value="LA">Lao People's Democratic Republic</option>
+                     <option value="LV">Latvia</option>
+                     <option value="LB">Lebanon</option>
+                     <option value="LS">Lesotho</option>
+                     <option value="LR">Liberia</option>
+                     <option value="LY">Libya</option>
+                     <option value="LI">Liechtenstein</option>
+                     <option value="LT">Lithuania</option>
+                     <option value="LU">Luxembourg</option>
+                     <option value="MO">Macao</option>
+                     <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                     <option value="MG">Madagascar</option>
+                     <option value="MW">Malawi</option>
+                     <option value="MY">Malaysia</option>
+                     <option value="MV">Maldives</option>
+                     <option value="ML">Mali</option>
+                     <option value="MT">Malta</option>
+                     <option value="MH">Marshall Islands</option>
+                     <option value="MQ">Martinique</option>
+                     <option value="MR">Mauritania</option>
+                     <option value="MU">Mauritius</option>
+                     <option value="YT">Mayotte</option>
+                     <option value="MX">Mexico</option>
+                     <option value="FM">Micronesia, Federated States of</option>
+                     <option value="MD">Moldova, Republic of</option>
+                     <option value="MC">Monaco</option>
+                     <option value="MN">Mongolia</option>
+                     <option value="ME">Montenegro</option>
+                     <option value="MS">Montserrat</option>
+                     <option value="MA">Morocco</option>
+                     <option value="MZ">Mozambique</option>
+                     <option value="MM">Myanmar</option>
+                     <option value="NA">Namibia</option>
+                     <option value="NR">Nauru</option>
+                     <option value="NP">Nepal</option>
+                     <option value="NL">Netherlands</option>
+                     <option value="NC">New Caledonia</option>
+                     <option value="NZ">New Zealand</option>
+                     <option value="NI">Nicaragua</option>
+                     <option value="NE">Niger</option>
+                     <option value="NG">Nigeria</option>
+                     <option value="NU">Niue</option>
+                     <option value="NF">Norfolk Island</option>
+                     <option value="MP">Northern Mariana Islands</option>
+                     <option value="NO">Norway</option>
+                     <option value="OM">Oman</option>
+                     <option value="PK">Pakistan</option>
+                     <option value="PW">Palau</option>
+                     <option value="PS">Palestinian Territory, Occupied</option>
+                     <option value="PA">Panama</option>
+                     <option value="PG">Papua New Guinea</option>
+                     <option value="PY">Paraguay</option>
+                     <option value="PE">Peru</option>
+                     <option value="PH">Philippines</option>
+                     <option value="PN">Pitcairn</option>
+                     <option value="PL">Poland</option>
+                     <option value="PT">Portugal</option>
+                     <option value="PR">Puerto Rico</option>
+                     <option value="QA">Qatar</option>
+                     <option value="RE">Réunion</option>
+                     <option value="RO">Romania</option>
+                     <option value="RU">Russian Federation</option>
+                     <option value="RW">Rwanda</option>
+                     <option value="BL">Saint Barthélemy</option>
+                     <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                     <option value="KN">Saint Kitts and Nevis</option>
+                     <option value="LC">Saint Lucia</option>
+                     <option value="MF">Saint Martin (French part)</option>
+                     <option value="PM">Saint Pierre and Miquelon</option>
+                     <option value="VC">Saint Vincent and the Grenadines</option>
+                     <option value="WS">Samoa</option>
+                     <option value="SM">San Marino</option>
+                     <option value="ST">Sao Tome and Principe</option>
+                     <option value="SA">Saudi Arabia</option>
+                     <option value="SN">Senegal</option>
+                     <option value="RS">Serbia</option>
+                     <option value="SC">Seychelles</option>
+                     <option value="SL">Sierra Leone</option>
+                     <option value="SG">Singapore</option>
+                     <option value="SX">Sint Maarten (Dutch part)</option>
+                     <option value="SK">Slovakia</option>
+                     <option value="SI">Slovenia</option>
+                     <option value="SB">Solomon Islands</option>
+                     <option value="SO">Somalia</option>
+                     <option value="ZA">South Africa</option>
+                     <option value="GS">South Georgia and the South Sandwich Islands</option>
+                     <option value="SS">South Sudan</option>
+                     <option value="ES">Spain</option>
+                     <option value="LK">Sri Lanka</option>
+                     <option value="SD">Sudan</option>
+                     <option value="SR">Suriname</option>
+                     <option value="SJ">Svalbard and Jan Mayen</option>
+                     <option value="SZ">Swaziland</option>
+                     <option value="SE">Sweden</option>
+                     <option value="CH">Switzerland</option>
+                     <option value="SY">Syrian Arab Republic</option>
+                     <option value="TW">Taiwan, Province of China</option>
+                     <option value="TJ">Tajikistan</option>
+                     <option value="TZ">Tanzania, United Republic of</option>
+                     <option value="TH">Thailand</option>
+                     <option value="TL">Timor-Leste</option>
+                     <option value="TG">Togo</option>
+                     <option value="TK">Tokelau</option>
+                     <option value="TO">Tonga</option>
+                     <option value="TT">Trinidad and Tobago</option>
+                     <option value="TN">Tunisia</option>
+                     <option value="TR">Turkey</option>
+                     <option value="TM">Turkmenistan</option>
+                     <option value="TC">Turks and Caicos Islands</option>
+                     <option value="TV">Tuvalu</option>
+                     <option value="UG">Uganda</option>
+                     <option value="UA">Ukraine</option>
+                     <option value="AE">United Arab Emirates</option>
+                     <option value="GB">United Kingdom</option>
+                     <option value="US">United States</option>
+                     <option value="UM">United States Minor Outlying Islands</option>
+                     <option value="UY">Uruguay</option>
+                     <option value="UZ">Uzbekistan</option>
+                     <option value="VU">Vanuatu</option>
+                     <option value="VE">Venezuela, Bolivarian Republic of</option>
+                     <option value="VN">Viet Nam</option>
+                     <option value="VG">Virgin Islands, British</option>
+                     <option value="VI">Virgin Islands, U.S.</option>
+                     <option value="WF">Wallis and Futuna</option>
+                     <option value="EH">Western Sahara</option>
+                     <option value="YE">Yemen</option>
+                     <option value="ZM">Zambia</option>
+                     <option value="ZW">Zimbabwe</option>
+
+                 </select>
+               </div>
+               <div class="form-group">
+                <label for="Pretraga">City</label>
+                <input type="text" name="Pretraga" id="Pretraga" class="form-control">
+              </div>
+               
+               <div class="row">
+               <div class="form-group-inline col-md-4 form-group">
+                 <label for="Odrasli">Persons</label>
+                 <select name="Odrasli" id="Odrasli" class="form-control">  
+                   <option value="1">1</option>
+                   <option value="1">2</option>
+                   <option value="1">3</option>
+                   <option value="1">4</option>
+                   <option value="1">5</option>
+                 </select>
+               </div>
+               <div class="form-group col-md-4">
+                 <label for="Deca">Children</label>
+                 <select name="Deca" id="Deca" class="form-control">
+                  <option value="1">1</option>
+                  <option value="1">2</option>
+                  <option value="1">3</option>
+                  <option value="1">4</option>
+                  <option value="1">5</option>
+                 </select>
+               </div>
+               <div class="col-md-12">
+               <button class="btn btn-outline-primary" style="height:50px; margin-top:20px; margin-left:5px;">Find Flight</button>
+          </div>
+               </div>
+               
+             </div>
+
+
+             <!--Carousel-->
+             <div class="col-md-8 col-sm-12 mx-auto" style="margin-top:5px;">
+
+              
+                <div id="carousel" class="carousel slide container " data-ride="carousel">
+
+
+                    <ul class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                      </ul>
+                    
+                      <!--Slike-->
+
+                          <div class="carousel-inner ml-md-2">
+                            <div class="carousel-item active" >
+                              <img src="../nidza/img/amsterdam.jpg" class="rounded" style="height:400px; width: 700px;" alt="AM">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../nidza/img/moskva.jpg" class="rounded" style="height:400px; width: 700px;" alt="MO">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="../nidza/img/bahami.jpg" class="rounded" style="height:400px; width: 700px;" alt="Bah">
+                          </div>
+                          </div>
+
+                          <!--Arrows-->
+                          <a class="carousel-control-prev" href="#carousel" data-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel" data-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+             </div>
+
+           </div>
+
+
+           <!--MAIN-2-->
+
+           <div class="row" id="prevoz">
+             <div class="col-md-4 col-sm-12 align-content-center">
+             <img class="text-center" src="../nidza/img/airplanetickets.png" id="avio"   alt="Avio karte" style="margin-top:7px; height: 150px; widows: 200px;" ><p class="text-center"><a class="nav-link" href="#"><b>AirPlane Tickets</b></a></p>
+             </div>
+             <div class="col-md-4 col-sm-12 align-content-center">
+             <img src="../nidza/img/Autobus.png" alt="Autobus"  style="margin-top:7px; height: 150px; widows: 200px;"><p class="text-center"><b><a class="nav-link" href="#"><b>Bus Tickets</b></a></b></p>
+            </div>
+            <div class="col-md-4 col-sm-12 align-content-center">
+             <img  src="../nidza/img/rent.png" alt="rent-a"  style="margin-top:7px; height: 150px; widows: 200px;" ><p class="text-center"><b><a class="nav-link" href="#"><b>Rent-a-car</b></a></b></p>
+            </div>
+           </div>
+
+           <!--ALBUM-->
+
+           <div class="album py-5 bg-light  ">
+             <div class="container">
+               <div class="row">
+
+
+
+                <!--Modal-1 Card-1-->
+
+                 <div class="col-md-4 col-sm-12 shadow-sm mb-1 ">
+                   <a href="#"><img class="card-img-top rounded" src="../nidza/img/kolosum.jpg" alt="kolo" data-holder-rendered="true" style="width:100%;" data-toggle="tooltip" data-placement="top" title="Klikni za vise"> </a>
+                   <div class="card-body" id="card_body2">
+                     <p class="card-text text-justify" style="height:200px;"> <button class="btn-sm btn-outline-primary" data-toggle="modal" data-target="#exampleModal">More...</button>Rome is the capital city of Italy and a special comune (named Comune di Roma Capitale). Rome also serves as the capital of the Lazio region. With 2,868,782 residents in 1,285 km2 (496.1 sq mi), it is also the country's most populated comune.
+                        Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the Tiber. The Vatican City (the smallest country in the world) is an independent country inside the city boundaries of Rome, the only existing example of a country within a city: for this reason Rome has been often defined as capital of two states.
+                      
+                      
+                      
+                      
+                        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"><img src="../nidza/img/kolosum.jpg" class="rounded img-fluid" alt="" width="400px" height="200px"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <table class="table table-hover text-center">
+              <thead class="thead-light">
+                <tr>
+                  <th>City</th>
+                  <th>Price</th>
+                  <th>Departure</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="bg-primary">Rome</td>
+                  <td class="bg-primary">299$</td>
+                  <td class="bg-primary">13.12.2018</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="text-justify mod_text" style="color:white;">
+                Rome is the capital city of Italy and a special comune (named Comune di Roma Capitale). Rome also serves as the capital of the Lazio region. With 2,868,782 residents in 1,285 km2 (496.1 sq mi), it is also the country's most populated comune. Rome is located in the central-western portion of the Italian Peninsula, within Lazio (Latium), along the shores of the Tiber. The Vatican City (the smallest country in the world) is an independent country inside the city boundaries of Rome, the only existing example of a country within a city: for this reason Rome has been often defined as capital of two states.
+                Rome's history spans 28 centuries. While Roman mythology dates the founding of Rome at around 753 BC, the site has been inhabited for much longer, making it one of the oldest continuously occupied sites in Europe.[6] The city's early population originated from a mix of Latins, Etruscans, and Sabines. Eventually, the city successively became the capital of the Roman Kingdom, the Roman Republic and the Roman Empire, and is regarded as the birthplace of Western civilization and by some as the first ever metropolis.[7] It was first called The Eternal City (Latin: Urbs Aeterna; Italian: La Città Eterna) by the Roman poet Tibullus in the 1st century BC, and the expression was also taken up by Ovid, Virgil, and Livy.[8][9] Rome is also called the "Caput Mundi" (Capital of the World). After the fall of the Western Empire, which marked the beginning of the Middle Ages, Rome slowly fell under the political control of the Papacy, which had settled in the city since the 1st century AD, until in the 8th century it became the capital of the Papal States, which lasted until 1870.
+
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+                     </p>
+
+
+
+                   </div>
+                 </div>
+
+
+
+
+                 <!--Modal 2 Card-2-->
+                 <div class="col-md-4 col-sm-12 shadow-sm mb-1">
+                   <a href="#"><img class="card-img-top rounded" src="../nidza/img/dubai.jpg" alt="dub" data-holder-rendered="true" style="width:100%;"  data-toggle="tooltip" data-placement="top" title="Klikni za vise"></a>
+                   <div class="card-body" id="card_body1">
+                     <p class="card-text text-justify" style="height:200px;"><button class="btn-sm btn-outline-primary" data-toggle="modal" data-target="#Modal_2">More...</button>Dubai is the largest and most populous city in the United Arab Emirates (UAE). On the southeast coast of the Persian Gulf, it is the capital of the Emirate of Dubai, one of the seven emirates that make up the country.
+                        Dubai is a global city and business hub of the Middle East.[9] It is also a major global transport hub for passengers and cargo. Oil revenue helped accelerate the development of the city, which was already a major mercantile hub, but Dubai's oil reserves are limited and production levels are low: today, less than 5% of the emirate's revenue comes from oil.
+                     
+                     
+                     
+                     
+                     
+                        <!-- Modal 2-->
+<div class="modal fade" id="Modal_2" tabindex="-1" role="dialog" aria-labelledby="Modal-2" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Modal-2"><img src="../nidza/img/dubai.jpg" class="rounded img-fluid" alt="" width="400px" height="200px"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <table class="table table-hover text-center">
+              <thead class="thead-light">
+                <tr>
+                  <th>City</th>
+                  <th>Price</th>
+                  <th>Departure</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="bg-primary">Dubai</td>
+                  <td class="bg-primary">449$</td>
+                  <td class="bg-primary">13.2.2019</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="text-justify mod_text" style="color:white;">
+                Dubai is a global city and business hub of the Middle East.[9] It is also a major global transport hub for passengers and cargo. Oil revenue helped accelerate the development of the city, which was already a major mercantile hub, but Dubai's oil reserves are limited and production levels are low: today, less than 5% of the emirate's revenue comes from oil.
+                Dubai is situated on the Persian Gulf coast of the United Arab Emirates and is roughly at sea level (16 m or 52 ft above). The emirate of Dubai shares borders with Abu Dhabi in the south, Sharjah in the northeast, and the Sultanate of Oman in the southeast. Hatta, a minor exclave of the emirate, is surrounded on three sides by Oman and by the emirates of Ajman (in the west) and Ras Al Khaimah (in the north). The Persian Gulf borders the western coast of the emirate. Dubai is positioned at 25.2697°N 55.3095°E and covers an area of 1,588 sq mi (4,110 km2), which represents a significant expansion beyond its initial 1,500 sq mi (3,900 km2) designation due to land reclamation from the sea
+
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+                      </p>
+                   </div>
+                 </div>
+
+
+                 <!--Modal-3 Card-3-->
+
+
+                 <div class="col-md-4 col-sm-12 shadow-sm rounded mb-1">
+                   <a href="#"><img class="card-img-top" src="../nidza/img/mumbai.png" alt="MU" data-holder-rendered="true" style="width:100%;"  data-toggle="tooltip" data-placement="top" title="Klikni za vise"></a>
+                   <div class="card-body" id="card_body">
+                     <p class="card-text text-justify" style="height:200px;"><button class="btn-sm btn-outline-primary"  data-toggle="modal" data-target="#Modal_3">More...</button>Mumbai  is the capital city of the Indian state of Maharashtra. It is the most populous city in India with an estimated city proper population of 12.4 million as of 2011. Along with the neighbouring regions of the Mumbai Metropolitan Region, it is the second most populous metropolitan area in India, with a population of 21.3 million as of 2016.It is also the wealthiest city in India,[20][21] and has the highest number of millionaires and billionaires among all cities in India.
+
+                      
+                      <!-- Modal 3-->
+<div class="modal fade" id="Modal_3" tabindex="-1" role="dialog" aria-labelledby="Modal-3" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Modal-3"><img src="../nidza/img/mumbai.png" class="rounded img-fluid" alt="" width="400px" height="200px"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <table class="table table-hover text-center">
+              <thead class="thead-light">
+                <tr>
+                  <th>City</th>
+                  <th>Price</th>
+                  <th>Departure</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="bg-primary">Mumbai</td>
+                  <td class="bg-primary">729$</td>
+                  <td class="bg-primary">25.2.2019</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="text-justify mod_text" style="color:white;">
+                Mumbai  is the capital city of the Indian state of Maharashtra. It is the most populous city in India with an estimated city proper population of 12.4 million as of 2011. Along with the neighbouring regions of the Mumbai Metropolitan Region, it is the second most populous metropolitan area in India, with a population of 21.3 million as of 2016.It is also the wealthiest city in India,[20][21] and has the highest number of millionaires and billionaires among all cities in India.
+                The seven islands that constitute Mumbai were originally home to communities of Koli people, who originated in Gujarat in prehistoric times.[23][24][25] For centuries, the islands were under the control of successive indigenous empires before being ceded to the Portuguese Empire and subsequently to the East India Company when in 1661 Charles II of England married Catherine of Braganza and as part of her dowry Charles received the ports of Tangier and Seven Islands of Bombay.[26] During the mid-18th century, Bombay was reshaped by the Hornby Vellard project,[27] which undertook reclamation of the area between the seven islands from the sea.
+
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+                     </p>
+                   </div>
+                 </div>
+               </div>
+
+
+
+
+
+               <!--Modal 4 card 4-->
+
+                <div class="row mt-2" style="border-top: 1px dotted black; padding-top: 7px;">
+                  <div class="col-md-4 col-sm-12 shadow-sm mb-1">
+                    <a href="#"><img src="../nidza/img/thai.jpeg" class="card-img-top rounded" alt="" data-holder-rendered="true" style="width:100%;"  data-toggle="tooltip" data-placement="top" title="Klikni za vise"></a>
+                    <p class="card-text text-justify mt-2" id="card_body3" style="height:200px"><button class="btn-sm btn-outline-primary" data-toggle="modal" data-target="#Modal_4">More...</button>Thailand , officially the Kingdom of Thailand and formerly known as Siam (Thai: สยาม) , is a country at the center of the Southeast Asian Indochinese peninsula composed of 76 provinces. At 513,120 km2 (198,120 sq mi) and over 68 million people, Thailand is the world's 50th largest country by total area and the 21st-most-populous country. The capital and largest city is Bangkok, a special administrative area.
+          
+          
+          
+          
+          
+          
+                      <!-- Modal 4-->
+<div class="modal fade" id="Modal_4" tabindex="-1" role="dialog" aria-labelledby="Modal-4" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Modal-4"><img src="../nidza/img/thai.jpeg" class="rounded img-fluid" alt="" width="400px" height="200px"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <table class="table table-hover text-center">
+              <thead class="thead-light">
+                <tr>
+                  <th>Country</th>
+                  <th>Price</th>
+                  <th>Departure</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="bg-primary">Thailand</td>
+                  <td class="bg-primary">799$</td>
+                  <td class="bg-primary">25.3.2019</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="text-justify mod_text" style="color:white;">
+                Thailand , officially the Kingdom of Thailand and formerly known as Siam (Thai: สยาม) , is a country at the center of the Southeast Asian Indochinese peninsula composed of 76 provinces. At 513,120 km2 (198,120 sq mi) and over 68 million people, Thailand is the world's 50th largest country by total area and the 21st-most-populous country. The capital and largest city is Bangkok, a special administrative area.
+                Totalling 513,120 square kilometres (198,120 sq mi),[1] Thailand is the 50th-largest country by total area. It is slightly smaller than Yemen and slightly larger than Spain.
+
+                Thailand comprises several distinct geographic regions, partly corresponding to the provincial groups. The north of the country is the mountainous area of the Thai highlands, with the highest point being Doi Inthanon in the Thanon Thong Chai Range at 2,565 metres (8,415 ft) above sea level. The northeast, Isan, consists of the Khorat Plateau, bordered to the east by the Mekong River. The centre of the country is dominated by the predominantly flat Chao Phraya river valley, which runs into the Gulf of Thailand.
+
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+                    </p>
+                  </div>
+
+
+
+
+
+                  <!--Modal 5 Card 5 -->
+                  <div class="col-md-4 col-sm-12 shadow-sm mb-1">
+                    <a href="#"><img src="../nidza/img/cuba2.jpeg" class="card-img-top rounded" data-holder-rendered="true" style="width:100%; height: 226px;" alt=""  data-toggle="tooltip" data-placement="top" title="Klikni za vise"></a>
+                    <p class="card-text text-justify mt-2" id="card_body4" style="height:200px;"><button class="btn-sm btn-outline-primary" data-toggle="modal" data-target="#Modal_5">More...</button>Cuba  officially the Republic of Cuba (Spanish: About this soundRepública de Cuba (help·info)), is a country comprising the island of Cuba as well as Isla de la Juventud and several minor archipelagos. Cuba is located in the northern Caribbean where the Caribbean Sea, Gulf of Mexico and Atlantic Ocean meet. It is east of Mexico, south of both the U.S. state of Florida and the Bahamas, west of Haiti and north of Jamaica. Havana is the largest city and capital; other major cities include Santiago de Cuba and Camagüey. The area of the Republic of Cuba is 110,860 square kilometres (42,800 sq mi) (109,884 square kilometres (42,426 sq mi) without the territorial waters)
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      <!-- Modal 5-->
+<div class="modal fade" id="Modal_5" tabindex="-1" role="dialog" aria-labelledby="Modal-5" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Modal-5"><img src="../nidza/img/cuba2.jpeg" class="rounded img-fluid" alt="" width="400px" height="200px"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <table class="table table-hover text-center">
+              <thead class="thead-light">
+                <tr>
+                  <th>Country</th>
+                  <th>Price</th>
+                  <th>Departure</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="bg-primary">Cuba</td>
+                  <td class="bg-primary">999$</td>
+                  <td class="bg-primary">2.3.2019</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="text-justify mod_text" style="color:white;">
+                Cuba  officially the Republic of Cuba (Spanish: About this soundRepública de Cuba (help·info)), is a country comprising the island of Cuba as well as Isla de la Juventud and several minor archipelagos. Cuba is located in the northern Caribbean where the Caribbean Sea, Gulf of Mexico and Atlantic Ocean meet. It is east of Mexico, south of both the U.S. state of Florida and the Bahamas, west of Haiti and north of Jamaica. Havana is the largest city and capital; other major cities include Santiago de Cuba and Camagüey. The area of the Republic of Cuba is 110,860 square kilometres (42,800 sq mi) (109,884 square kilometres (42,426 sq mi) without the territorial waters)
+                Culturally, Cuba is considered part of Latin America.[19] It is a multiethnic country whose people, culture and customs derive from diverse origins, including the aboriginal Taíno and Ciboney peoples, the long period of Spanish colonialism, the introduction of African slaves and a close relationship with the Soviet Union in the Cold War.
+
+                Cuba is a sovereign state and a founding member of the United Nations, the G77, the Non-Aligned Movement, the African, Caribbean and Pacific Group of States, ALBA and Organization of American States. The country is a regional power in Latin America and a middle power in world affairs. It has currently one of the world's only planned economies, and its economy is dominated by the exports of sugar, tobacco, coffee and skilled labor. 
+                
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+                    </p>
+                  </div>
+
+
+
+                       <!--Modal 6 Card 6-->
+
+
+
+
+                  <div class="col-md-4 col-sm-12 shadow-sm mb-1">
+                    <a href="#"><img src="../nidza/img/havaji.jpg" class="card-img-top rounded" style="width:100%;" data-holder-rendered="true" alt="" ></a>
+                    <p class="card-text text-justify mt-2" id="card_body5" style="height:200px;"><button class="btn-sm btn-outline-primary" data-toggle="modal" data-target="#Modal_6">More...</button>Hawaii  is the 50th and most recent state to have joined the United States, having received statehood on August 21, 1959.[10] Hawaii is the only U.S. state located in Oceania, the only U.S. state located outside North America, and the only one composed entirely of islands. It is the northernmost island group in Polynesia, occupying most of an archipelago in the central Pacific Ocean.[11]
+
+                        The state encompasses nearly the entire volcanic Hawaiian archipelago, which comprises hundreds of islands spread over 1,500 miles (2,400 km). At the southeastern end of the archipelago, the eight main islands are—in order from northwest to southeast: Niʻihau, Kauaʻi, Oʻahu, Molokaʻi, Lānaʻi, Kahoʻolawe, Maui, and the Island of Hawaiʻi.
+                      
+                      <!-- Modal 5-->
+<div class="modal fade" id="Modal_6" tabindex="-1" role="dialog" aria-labelledby="Modal-6" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Modal-6"><img src="../nidza/img/cuba2.jpeg" class="rounded img-fluid" alt="" width="400px" height="200px"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <table class="table table-hover text-center">
+              <thead class="thead-light">
+                <tr>
+                  <th>Country</th>
+                  <th>Price</th>
+                  <th>Departure</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="bg-primary">Hawaii</td>
+                  <td class="bg-primary">1299$</td>
+                  <td class="bg-primary">13.4.2019</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="text-justify mod_text" style="color:white;">
+                Hawaii  is the 50th and most recent state to have joined the United States, having received statehood on August 21, 1959.[10] Hawaii is the only U.S. state located in Oceania, the only U.S. state located outside North America, and the only one composed entirely of islands. It is the northernmost island group in Polynesia, occupying most of an archipelago in the central Pacific Ocean.[11]
+
+                        The state encompasses nearly the entire volcanic Hawaiian archipelago, which comprises hundreds of islands spread over 1,500 miles (2,400 km). At the southeastern end of the archipelago, the eight main islands are—in order from northwest to southeast: Niʻihau, Kauaʻi, Oʻahu, Molokaʻi, Lānaʻi, Kahoʻolawe, Maui, and the Island of Hawaiʻi.
+                        Hawaii's diverse natural scenery, warm tropical climate, abundance of public beaches, oceanic surroundings, and active volcanoes make it a popular destination for tourists, surfers, biologists, and volcanologists. Because of its central location in the Pacific and 19th-century labor migration, Hawaii's culture is strongly influenced by North American and East Asian cultures, in addition to its indigenous Hawaiian culture. Hawaii has over a million permanent residents, along with many visitors and U.S. military personnel. Its capital is Honolulu on the island of Oʻahu.
+
+                        Hawaii is the 8th-smallest and the 11th-least populous, but the 13th-most densely populated of the 50 U.S. states. It is the only state with an Asian plurality. The state's oceanic coastline is about 750 miles (1,210 km) long, the fourth longest in the U.S. after the coastlines of Alaska, Florida, and California.
+
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+                      
+                      </p>
+                      
+                  </div>
+                </div>
+
+
+
+             </div>
+           </div>
+
+
+           <div class="container bg-light"><a href="#containerr" class="nav-link"><p class="text-center">Top of the Page</p></a></div>
+
+           <!--Footer-->
+
+           <div class="navbar navbar-expand-md navbar-dark bg-dark  " id="navbar-footer" >
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#footer_collapse">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="footer_collapse">
+          
+             <ul class="navbar-nav" id="footer">
+               
+               <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-mobile"></i></a></li>
+               <li class="nav-item"><a class="nav-link broj" href="#">(123)123-456-789</a></li>
+               <li class="nav-item dropup show">
+                  <a class="nav-link popup" id="adresa_1"  onclick="popUp_1()" href="#adresa_1">Contact
+                    <span class="popuptext" id="mypopUp_1">Beograd <br> Kraljice Marije <br></span>
+                    <span class="carret"></span>
+                  </a>
+                  
+                </li>
+                <div class="collapse navbar-collapse" id="footer_collapse" style="justify-content:flex-end;">
+                    <li class="nav-item" ><a href="https://www.facebook.com/" class="nav-link"><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="nav-item"><a href="https://www.twitter.com/" class="nav-link"><i class="fab fa-twitter"></i></a></li>
+                    <li class="nav-item"><a href="https://www.instagram.com/" class="nav-link"><i class="fab fa-instagram"></i></a></li>
+                 </div>
+           
+             </ul>
+             </div>
+             
+             
+
+          </div>
+
+
+           
+           
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../nidza/js/javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
